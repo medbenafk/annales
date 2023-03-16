@@ -38,6 +38,7 @@ body {
   text-align: right;
   margin-right: 10px;
   font-weight: bold;
+  color: white;
 }
 
 select {
@@ -47,6 +48,7 @@ select {
   border-radius: 5px;
   border: 1px solid #ccc;
   background-color: #353133;
+  color: white;
   width: 200px;
 }
 
