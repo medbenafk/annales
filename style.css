@@ -46,12 +46,12 @@ select {
   font-size: 16px;
   border-radius: 5px;
   border: 1px solid #ccc;
-  background-color: #fff;
+  background-color: #353133;
   width: 200px;
 }
 
 .submit-button {
-  background-color: #4CAF50;
+  background-color: #50B2C0;
   color: #fff;
   border: none;
   padding: 10px 20px;
@@ -63,7 +63,7 @@ select {
 }
 
 .submit-button:hover {
-  background-color: #3e8e41;
+  background-color: #3B97A5;
 }
 
 #files {
