@@ -1,8 +1,9 @@
 body {
-	font-family: Arial, sans-serif;
+  font-family: Arial, sans-serif;
   display: flex;
   flex-direction: column;
   align-content: center;
+  background-color: #201E1F;
 }
 
 .container {
@@ -37,6 +38,7 @@ body {
   text-align: right;
   margin-right: 10px;
   font-weight: bold;
+  color: white;
 }
 
 select {
@@ -45,12 +47,13 @@ select {
   font-size: 16px;
   border-radius: 5px;
   border: 1px solid #ccc;
-  background-color: #fff;
+  background-color: #353133;
+  color: white;
   width: 200px;
 }
 
 .submit-button {
-  background-color: #4CAF50;
+  background-color: #50B2C0;
   color: #fff;
   border: none;
   padding: 10px 20px;
@@ -62,7 +65,7 @@ select {
 }
 
 .submit-button:hover {
-  background-color: #3e8e41;
+  background-color: #3B97A5;
 }
 
 #files {
@@ -94,4 +97,3 @@ select {
   opacity: 0;
   transition: opacity 0.5s ease-out;
 }
-

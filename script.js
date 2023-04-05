@@ -7,18 +7,21 @@ class Choice {
   getLink(){
     let base_link = "./";
     let link = base_link;
+
     if(this.branch === 'undefined'){
-      alert("Veuillez chosire une branche");
+      alert("Veuillez choisire une branche");
       return
     }
     link += this.branch + "/"
+
     if(this.year === 'undefined'){
-      alert("Veuillez chosire une anne");
+      alert("Veuillez choisire une année");
       return
     }
     link += this.year + "/"
+
     if(this.subject === 'undefined'){
-      alert("Veuillez chosire une matiére");
+      alert("Veuillez choisire une matiére");
       return
     }
     link += this.subject + "/"
